@@ -9,36 +9,61 @@
     <link href="../styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-      
-     <div class="container-fluid  container d-flex justify-content-center position-absolute top-50 start-50 translate-middle">
-      <!-- text-center container d-flex justify-content-center position-absolute top-50 start-50 translate-middle -->
-      <div class="row">
-     <div class="card w-75 mb-3" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Preguntas y respuestas frecuentes (FAQ)</h5>
-          <h6 class="card-subtitle mb-2 text-body-secondary">Preguntas Frecuentes (FAQ) - Municipalidad de [Nombre]:</h6>
-          <p class="card-text">
-            ¿Cuáles son los servicios principales que ofrece la Municipalidad de Renca?
-            La Municipalidad proporciona una amplia gama de servicios, incluyendo gestión de trámites administrativos, permisos de construcción, recolección de residuos, mantenimiento de espacios públicos, y programas comunitarios.
-            ¿Cómo puedo pagar mis impuestos municipales?
-            Puedes realizar el pago de impuestos municipales en línea a través de nuestro sitio web o visitando nuestras oficinas. También ofrecemos opciones de pago en cuotas y asistencia para aquellos que puedan necesitarlo.
-            ¿Cuándo se llevan a cabo las reuniones del concejo municipal y cómo puedo participar?
-            Las fechas de las reuniones del concejo municipal se publican en nuestro calendario en línea. Los ciudadanos pueden asistir personalmente o participar virtualmente. Para obtener información sobre cómo participar activamente, comunícate con nuestra oficina de participación ciudadana.
-            ¿Cómo puedo solicitar un permiso de construcción?
-            La solicitud de permisos de construcción se puede realizar en línea a través de nuestro portal de servicios. Allí encontrarás formularios, requisitos y detalles sobre el proceso. También puedes visitar nuestras oficinas para obtener asistencia personalizada.
-            ¿Cuáles son las próximas actividades comunitarias organizadas por la Municipalidad?
-            Mantente actualizado sobre las próximas actividades y eventos comunitarios visitando nuestra sección de noticias y eventos en el sitio web. También puedes seguirnos en nuestras redes sociales para recibir actualizaciones periódicas.
-            ¿Cómo reporto problemas de mantenimiento en mi vecindario, como baches o luces apagadas?
-            Puedes informar problemas de mantenimiento a través de nuestro sistema en línea o comunicándote con nuestro departamento de servicios públicos. Proporciona detalles específicos para que podamos abordar rápidamente el problema.
-            ¿Dónde puedo encontrar información sobre programas de asistencia y servicios sociales ofrecidos por la Municipalidad?
-            En nuestra sección de servicios sociales, encontrarás información sobre programas de asistencia, servicios para personas mayores, y otros recursos comunitarios. Además, siempre puedes contactar a nuestro departamento de servicios sociales para obtener ayuda personalizada.
-            ¿Cómo puedo contactar con la Municipalidad en caso de emergencia?
-            En caso de emergencia, comunícate con nuestro número de atención de emergencias [proporcionar número]. También puedes encontrar información actualizada sobre situaciones de emergencia en nuestra página de alertas y noticias.
-            Estas preguntas y respuestas proporcionan una base para abordar las consultas comunes que los ciudadanos pueden tener al interactuar con la Municipalidad de Renca.
-            <a href="#" class="btn btn-primary">Volver</a>
+  <div class="container">
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <h3 class="container m-4 p-4">
+        Preguntas Frecuentes 
+        <small class="text-body-secondary">(FAQ)</small>
+      </h3></div>
+      <div class="col-3"></div>
+    </div>
+  </div>
+  
+     <div class="container col-6 ">
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+             <strong> ¿Dónde puedo ver las ofertas de trabajo?</strong>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolorem fuga nostrum commodi reprehenderit, unde alias sed nesciunt quae est aspernatur eum, recusandae corporis, quis reiciendis dignissimos assumenda. Porro, iste.
+            </div>
+          </div>
+        </div>
+       
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+             <strong> ¿Cómo puedo hacer para enviarles mis datos por si sale un trabajo para mí? </strong>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              <strong>Necesito contratar personal, ¿Con quién me contacto?</strong>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis amet iusto inventore sint exercitationem. Ex reiciendis nobis dolorum esse quaerat tempore consectetur odit commodi magni fugit, et quisquam. Omnis, totam.
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+      <br>
+      <button type="button" class="btn btn-info ">Volver</button>
   </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
