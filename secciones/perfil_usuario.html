@@ -10,49 +10,67 @@
     <link href="../styles/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-info">
-    <div class="container-fluid">
-      <!-- Logo a la izquierda -->
-      <a class="navbar-brand" href="#">
-        <img src="tu_logo.png" alt="Logo" height="30">
-      </a>
-  
-      <!-- Buscador en el centro -->
-      <form class="d-flex mx-auto">
-        <div class="p-1 bg-light rounded rounded-pill shadow-sm">
-          <div class="input-group">
-            <input type="search" placeholder="What're you searching for?" aria-describedby="button-addon1" class="form-control border-0 bg-light">
-            <div class="input-group-append">
-              <button id="button-addon1" type="submit" class="btn btn-link text-primary">
-                <i class="bi bi-search"></i>
-              </button>
-            </div>
-          </div>
+
+<nav class="navbar navbar-expand-lg bg-info">
+  <div class="container-fluid" id="navbar1">
+      <div class="row">
+
+        <div class="col-3">
+          <!-- Logo a la izquierda -->
+          <a class="navbar-brand" href="#">
+            <img src="tu_logo.png" alt="Logo" height="10">
+          </a>
+        </div>
+
+        <!-- Buscador en el centro -->
+        <div class="col-6 ">
+          <form class="mx-auto">
+            <div class="p-1 bg-light rounded rounded-pill shadow-sm">
+              <div class="input-group">
+                <input type="search" placeholder="Buscar talentos/empresas..." aria-describedby="button-addon1" class="form-control border-0 rounded-5 bg-light">
+                <div class="input-group-append">
+                  <button id="button-addon1" type="submit" class="btn btn-link text-primary">
+                    <i class="bi bi-search"></i>
+                  </button>
+                </div>
+              </div>
+            </div>  
+          </form>
+        </div>
+
+        <!-- Enlaces a la derecha -->
+        <div class="col-3">
+          <ul class="navbar-nav">
+            <!-- Ícono de notificación a la derecha -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="bi bi-bell"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">¿Quiénes somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
         </div>
         
-      </form>
-  
-      <!-- Enlaces a la derecha -->
-      <ul class="navbar-nav">
-        <!-- Ícono de notificación a la derecha -->
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="bi bi-bell"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">¿Quiénes somos?</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">FAQ</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
-        </li>
-      </ul>
-    </div>
+      </div> <!--Fin fila-->
+
+    </div> <!--Fin contenedor-->
   </nav>
 
+  <br>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quisquam qui architecto eligendi dolorum laborum, quo debitis iusto, recusandae doloremque nesciunt consequatur dicta praesentium porro neque aliquid saepe iure? Accusamus.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas veritatis porro obcaecati quo beatae dolores soluta maiores vel unde explicabo ipsa fuga repellendus, eaque ea pariatur. Provident hic facilis distinctio.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, beatae. Expedita ut quis natus molestias amet nemo id, odit rem veniam minima distinctio culpa, sequi facere corporis facilis omnis quaerat.
+  </p>
+
+  <br>
       <footer class="bg-info text-center text-lg-start ">
         <!-- Grid container -->
         <div class="container p-4">
@@ -149,8 +167,8 @@
       
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-          © 2020 Copyright:
-          <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          © 2024 Copyright:
+          <a class="text-body" href="https://renca.cl/" target="_blank">Ilustre Municipalidad de Renca</a>
         </div>
         <!-- Copyright -->
       </footer>
