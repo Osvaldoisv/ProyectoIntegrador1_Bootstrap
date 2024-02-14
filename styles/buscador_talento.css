@@ -1,0 +1,14 @@
+    /* Estilos adicionales opcionales */
+    #miContainer {
+        opacity: 0; /* Inicialmente oculto */
+        visibility: hidden; /* Inicialmente oculto */
+        margin-top: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        transition: opacity 0.5s ease; /* Agregar transición suave */
+    }
+    
+    #miContainer.mostrando {
+        opacity: 1; /* Mostrar container */
+        visibility: visible; /* Mostrar container */
+    }
