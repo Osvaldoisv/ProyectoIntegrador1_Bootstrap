@@ -62,7 +62,15 @@
                             <div class="favorite-icon">
                               <button type="button" class="btn btn-success">Aceptar</button>
                               <button type="button" class="btn btn-danger">Rechazar</button>
-                              <button type="button" class="btn btn-info">Motivo</button>
+                              <button type="button" class="btn btn-info" id="openPopupBtn">Motivo</button>
+                              <div class="popup" id="popupForm">
+                                <form>
+                                  <!-- Contenido del formulario -->
+                                  <label for="motivo">¿Seguro que deseas rechazar a este candidato? (Si estás seguro escribe "SI"):</label>
+                                  <input type="text" id="motivo" name="motivo">
+                                  <button type="submit">Enviar</button>
+                                </form>
+                              </div>
                             </div>
                         </div>
                     </div>
