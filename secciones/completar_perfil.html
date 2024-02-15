@@ -80,49 +80,59 @@
 
                 <!--nueva linea-->
                 <div class="row">
-                    <div class="col-3"> <!-- fecha de nacimiento -->
-                        <label for="nacimiento">Fecha de nacimiento:</label>
-                    </div>
-                    <div class="col-3"> <!-- visible - nacimiento -->
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="visible_nacimiento" />
-                            <label class="form-check-label" for="visible_nacimiento">
-                                Visible
-                            </label>
-                        </div>
-                    </div>
-                    <div class='col-3'> <!-- estado civil-->                    
-                        Estado Civil
-                    </div>
-                    <div class='col-3'><!-- visible - estado civil -->
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="visible_civil" />
-                            <label class="form-check-label" for="visible_civil">
-                                Visible
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-3"> <!-- calendario-->
-                        <label class="form-label mt-1" for="edad">
-                            <div class="c-azul">
-                                <input type="date" id="nacimiento" name="nacimiento" class="sm-form-control" />
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="row">
+                            <div class="col-6"> <!-- fecha de nacimiento -->
+                                <label for="nacimiento">Fecha de nacimiento:</label>
                             </div>
-                        </label>
-                    </div>
-                    <div class="col-3"> <!-- edad total -->
-                        <input class="form-control" id="edad" type="number" placeholder="Edad" />
-                    </div>
-                    <div class="col-6"> <!-- LISTA estado civil--> 
-                        <select class="form-select" aria-label="Default select example" id="estadoCivil">
-                            <option value="1">Soltero/a</option>
-                            <option value="2">Casado/a</option>
-                            <option value="3">Viudo/a</option>
-                            <option value="4">Separado/a</option>
-                        </select>
+                            <div class="col-6"> <!-- visible - nacimiento -->
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="visible_nacimiento" />
+                                    <label class="form-check-label" for="visible_nacimiento">
+                                        Visible
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6"> <!-- calendario-->
+                                <label class="form-label mt-1" for="edad">
+                                    <div class="c-azul">
+                                        <input type="date" id="nacimiento" name="nacimiento" class="sm-form-control" />
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col-6"> <!-- edad total -->
+                                <input class="form-control" id="edad" type="number" placeholder="Edad" />
+                            </div>
+                        </div>
                     </div>
 
+                    <div class="col-sm-12 col-md-12 col-lg-6 mt-4 mt-lg-0">
+                        <div class="row">
+                            <div class='col-6'> <!-- estado civil-->                    
+                                Estado Civil
+                            </div>
+                            <div class='col-6'><!-- visible - estado civil -->
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="visible_civil" />
+                                    <label class="form-check-label" for="visible_civil">
+                                        Visible
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12"> <!-- LISTA estado civil--> 
+                                <select class="form-select" aria-label="Default select example" id="estadoCivil">
+                                    <option value="1">Soltero/a</option>
+                                    <option value="2">Casado/a</option>
+                                    <option value="3">Viudo/a</option>
+                                    <option value="4">Separado/a</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
 
