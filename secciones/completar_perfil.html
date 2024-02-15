@@ -26,6 +26,8 @@
   
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/style_completar_perfil.css" type="text/css">
 </head>
 <body>
     <div class='container-fluid'>
@@ -135,24 +137,79 @@
                     </div>
                 </div>
 
-                <!--Jornada -->
-                <div class="row">
-                    <div class="col-6">
-                        Jornada
-                    </div>
-                    <div class="col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="visible_civil" />
-                            <label class="form-check-label" for="visible_civil">
-                                Visible
-                            </label>
+                <div class="container" id="fondo_modalidad">
+                    <div class="row mt-4">
+                        <div class="col-sm-12 col-md-12 col-lg-6"> <!--Parte Izquierda-->
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6"> <!--Jornada - Horarios-->
+                                            Jornada - Horario
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="visible_civil" />
+                                                <label class="form-check-label" for="visible_civil">
+                                                    Visible <!--Visible - Horarios-->
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12"> <!--Jornada - Horarios - Lista-->
+                                            <select class="form-select" aria-label="Default select example" id="estadoCivil">
+                                                <option value="1">No especifica</option>
+                                                <option value="2">Diurna</option>
+                                                <option value="3">Nocturna</option>
+                                                <option value="4">Cualquiera</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class='col-6'> <!-- Modalidad turnos-->
+                                            Jornada - Turnos
+                                        </div>
+                                        <div class='col-6'><!--Modalidad turnos - visible -->
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="visible_civil" />
+                                                <label class="form-check-label" for="visible_civil">
+                                                    Visible
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-12"> <!-- Modalidad turnos - Lista-->
+                                            <select class="form-select" aria-label="Default select example" id="estadoCivil">
+                                                <option value="1">No especifica</option>
+                                                <option value="2">Completa</option>
+                                                <option value="3">Part time</option>
+                                                <option value="4">Por turnos</option>
+                                                <option value="5">Freelance</option>
+                                                <option value="6">Cualquiera</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    
+                                    </div>
+                                    <div class="col-6">
+                                    
+                                    </div>
+                    
+                            </div>
+                    
+                        </div>
+                    
+                        <div class="col-sm-12 col-md-12 col-lg-6 mt-4 mt-lg-0"> <!--Parte Derecha-->
+                    
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    
-                </div>
                 
+
+
 
 
 
