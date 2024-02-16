@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="buscadorema.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="buscadorema.css" rel="stylesheet" type="text/css" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="../styles/buscador_talento.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-info bg-info">
         <div class="container-fluid-fluid" id="navbar1">
@@ -79,428 +82,663 @@
         </div> <!--Fin contenedor-->
     </nav>
 
-<!-- Nueva sección -->
+    <!-- Nueva sección -->
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
-<section class="section">
-    <div class="container">
-        <div class="justify-content-center row">
-            <div class="col-lg-12">
-                <div class="candidate-list-widgets mb-4">
-                    <form action="#" class="">
-                        <div class="g-2 row">
-                            <div class="col-lg-3">
-                                <div class="filler-job-form">
-                                    <i class="uil uil-briefcase-alt"></i><input id="exampleFormControlInput1" placeholder="Job, Company name... " type="search" class="form-control filler-job-input-box form-control" />
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="filler-job-form">
-                                    <i class="uil uil-location-point"></i>
-                                    <select class="form-select selectForm__inner" data-trigger="true" name="choices-single-location" id="choices-single-location" aria-label="Default select example">
-                                        <option value="AF">Afghanistan</option>
-                                        <option value="AX">Åland Islands</option>
-                                        <option value="AL">Albania</option>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css"
+        integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
+    <section class="section">
+        <div class="container">
+            <div class="justify-content-center row">
+                <div class="col-lg-12">
+                    <div class="candidate-list-widgets mb-4">
+                        <form action="#" class="">
+                            <div class="g-2 row">
+                                <div class="col-lg-3">
+                                    <div class="filler-job-form">
+                                        <i class="uil uil-location-point"></i>
+                                        <select class="form-select selectForm__inner" data-trigger="true"
+                                            name="choices-single-location" id="choices-single-location"
+                                            aria-label="Default select example">
+                                            <option value="AF">Área Laboral</option>
+                                            <option value="AX">Salud</option>
+                                            <option value="AL">Informática</option>
 
-                                    </select>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="filler-job-form">
+                                        <i class="uil uil-location-point"></i>
+                                        <select class="form-select selectForm__inner" data-trigger="true"
+                                            name="choices-single-location" id="choices-single-location"
+                                            aria-label="Default select example">
+                                            <option value="AF">Experiencia mínima</option>
+                                            <option value="AX">Menos de 1 año</option>
+                                            <option value="AL">1 - 2 años</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="filler-job-form">
+                                        <i class="uil uil-briefcase-alt"></i><input id="exampleFormControlInput1"
+                                            placeholder="Habilidades separadas por coma (,)" type="search"
+                                            class="form-control filler-job-input-box form-control" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div>
+                                        <a class="btn btn-primary" href="#"><i class="uil uil-filter"></i> Filtrar</a><a
+                                            class="btn btn-success ms-2" href="#"><i class="uil uil-cog"></i>
+                                            Filtro Avanzado</a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3">
-                                <div class="filler-job-form">
-                                    <i class="uil uil-clipboard-notes"></i>
-                                    <select class="form-select selectForm__inner" data-trigger="true" name="choices-single-categories" id="choices-single-categories" aria-label="Default select example">
-                                        <option value="4">Accounting</option>
-                                        <option value="1">IT &amp; Software</option>
-                                        <option value="3">Marketing</option>
-                                        <option value="5">Banking</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div>
-                                    <a class="btn btn-primary" href="#"><i class="uil uil-filter"></i> Filter</a><a class="btn btn-success ms-2" href="#"><i class="uil uil-cog"></i> Advance</a>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="align-items-center row">
-                    <div class="col-lg-8">
-                        <div class="mb-3 mb-lg-0"><h6 class="fs-16 mb-0">Showing 1 – 8 of 11 results</h6></div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="candidate-list-widgets">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="selection-widget">
-                                        <select class="form-select" data-trigger="true" name="choices-single-filter-orderby" id="choices-single-filter-orderby" aria-label="Default select example">
-                                            <option value="df">Default</option>
-                                            <option value="ne">Newest</option>
-                                            <option value="od">Oldest</option>
-                                            <option value="rd">Random</option>
-                                        </select>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="align-items-center row">
+                        <div class="col-lg-8">
+                            <div class="mb-3 mb-lg-0">
+                                <h6 class="fs-16 mb-0">Mostrando 1 – 8 de 11 resultados</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="candidate-list-widgets">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="selection-widget">
+                                            <select class="form-select" data-trigger="true"
+                                                name="choices-single-filter-orderby" id="choices-single-filter-orderby"
+                                                aria-label="Default select example">
+                                                <option value="df">Predeterminado</option>
+                                                <option value="ne">Nuevos primero</option>
+                                                <option value="od">Antiguos primero</option>
+                                                <option value="rd">Aleatorio</option>
+                                            </select>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="selection-widget mt-2 mt-lg-0">
-                                        <select class="form-select" data-trigger="true" name="choices-candidate-page" id="choices-candidate-page" aria-label="Default select example">
-                                            <option value="df">All</option>
-                                            <option value="ne">8 per Page</option>
-                                            <option value="ne">12 per Page</option>
-                                        </select>
+                                    <div class="col-lg-6">
+                                        <div class="selection-widget mt-2 mt-lg-0">
+                                            <select class="form-select" data-trigger="true"
+                                                name="choices-candidate-page" id="choices-candidate-page"
+                                                aria-label="Default select example">
+                                                <option value="df">Todos</option>
+                                                <option value="ne">8 por página</option>
+                                                <option value="ne">12 por página</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="candidate-list"> <!--LISTA DE CANDIDATOS===============================================================-->
+                                <div class="candidate-list-box card mt-4">
+                                    <div class="p-4 card-body">
+                                        <div class="align-items-center row">
+                                            <div class="col-auto">
+                                                <div class="candidate-list-images">
+                                                    <a href="#"><img
+                                                            src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                                                            alt="" class="avatar-md img-thumbnail rounded-circle" /></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="candidate-list-content mt-3 mt-lg-0">
+                                                    <h5 class="fs-19 mb-0">
+                                                        <a class="primary-link" href="#">Carlos Silva</a><span
+                                                            class="badge bg-success ms-1"><i
+                                                                class="mdi mdi-star align-middle"></i>4.8</span>
+                                                    </h5>
+                                                    <p class="text-muted mb-2">Project Manager</p>
+                                                    <ul>
+                                                        <li>Disponibilidad: Full time</li>
+                                                        <li>Horarios: Cualquiera</li>
+                                                        <li>Habilidades: Html, Css, Javascript</li>
+                                                    </ul>
+                                                    
+                                                    <ul class="list-inline mb-0 text-muted">
+                                                        <li class="list-inline-item"><i class="mdi mdi-map-marker"></i>
+                                                            Renca, Santiago de
+                                                            Chile</li>
+                                                        <li class="list-inline-item"><i class="mdi mdi-wallet"></i> $750.000
+                                                            / mes</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="mt-2 mt-lg-0 d-flex flex-wrap align-items-start gap-1">
+                                                    <span class="badge bg-soft-secondary fs-14 mt-1">Html</span><span
+                                                        class="badge bg-soft-secondary fs-14 mt-1">CSS</span><span
+                                                        class="badge bg-soft-secondary fs-14 mt-1">Developer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="favorite-icon">
+                                            <i class="bi bi-circle-fill text-warning"><p class="fw-bold" style="display: inline;">          En búsqueda</p></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidate-list-box bookmark-post card mt-4">
+                                    <div class="p-4 card-body">
+                                        <div class="align-items-center row">
+                                            <div class="col-auto">
+                                                <div class="candidate-list-images">
+                                                    <a href="#"><img
+                                                            src="https://bootdey.com/img/Content/avatar/avatar2.png"
+                                                            alt="" class="avatar-md img-thumbnail rounded-circle" /></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="candidate-list-content mt-3 mt-lg-0">
+                                                    <h5 class="fs-19 mb-0">
+                                                        <a class="primary-link" href="#">Gabriel Palmer</a><span
+                                                            class="badge bg-warning ms-1"><i
+                                                                class="mdi mdi-star align-middle"></i>3.4</span>
+                                                    </h5>
+                                                    <p class="text-muted mb-2">Html Developer</p>
+                                                    <ul>
+                                                        <li>Disponibilidad: Full time</li>
+                                                        <li>Horarios: Cualquiera</li>
+                                                        <li>Habilidades: Html, Css, Javascript</li>
+                                                    </ul>
+                                                    
+                                                    <ul class="list-inline mb-0 text-muted">
+                                                        <li class="list-inline-item"><i class="mdi mdi-map-marker"></i>
+                                                            Renca, Santiago de
+                                                            Chile</li>
+                                                        <li class="list-inline-item"><i class="mdi mdi-wallet"></i> $750.000
+                                                            / mes</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="mt-2 mt-lg-0 d-flex flex-wrap align-items-start gap-1"><span
+                                                        class="badge bg-soft-secondary fs-14 mt-1">Design</span><span
+                                                        class="badge bg-soft-secondary fs-14 mt-1">Developer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="favorite-icon">
+                                            <i class="bi bi-circle-fill text-success"><p class="fw-bold" style="display: inline;">          Disponible</p></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidate-list-box card mt-4">
+                                    <div class="p-4 card-body">
+                                        <div class="align-items-center row">
+                                            <div class="col-auto">
+                                                <div class="candidate-list-images">
+                                                    <a href="#"><img
+                                                            src="https://bootdey.com/img/Content/avatar/avatar3.png"
+                                                            alt="" class="avatar-md img-thumbnail rounded-circle" /></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="candidate-list-content mt-3 mt-lg-0">
+                                                    <h5 class="fs-19 mb-0">
+                                                        <a class="primary-link" href="#">Rebecca Swartz </a><span
+                                                            class="badge bg-success ms-1"><i
+                                                                class="mdi mdi-star align-middle"></i>4.3</span>
+                                                    </h5>
+                                                    <p class="text-muted mb-2">Graphic Designer</p>
+                                                    <ul>
+                                                        <li>Disponibilidad: Full time</li>
+                                                        <li>Horarios: Cualquiera</li>
+                                                        <li>Habilidades: Html, Css, Javascript</li>
+                                                    </ul>
+                                                    
+                                                    <ul class="list-inline mb-0 text-muted">
+                                                        <li class="list-inline-item"><i class="mdi mdi-map-marker"></i>
+                                                            Renca, Santiago de
+                                                            Chile</li>
+                                                        <li class="list-inline-item"><i class="mdi mdi-wallet"></i> $750.000
+                                                            / mes</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="mt-2 mt-lg-0 d-flex flex-wrap align-items-start gap-1"><span
+                                                        class="badge bg-soft-secondary fs-14 mt-1">Design</span><span
+                                                        class="badge bg-soft-secondary fs-14 mt-1">Developer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="favorite-icon">
+                                            <i class="bi bi-circle-fill text-danger"><p class="fw-bold" style="display: inline;">          No disponible</p></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidate-list-box bookmark-post card mt-4">
+                                    <div class="p-4 card-body">
+                                        <div class="align-items-center row">
+                                            <div class="col-auto">
+                                                <div class="candidate-list-images">
+                                                    <a href="#"><img
+                                                            src="https://bootdey.com/img/Content/avatar/avatar4.png"
+                                                            alt="" class="avatar-md img-thumbnail rounded-circle" /></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="candidate-list-content mt-3 mt-lg-0">
+                                                    <h5 class="fs-19 mb-0">
+                                                        <a class="primary-link" href="#">Betty Richards</a><span
+                                                            class="badge bg-success ms-1"><i
+                                                                class="mdi mdi-star align-middle"></i>4.5</span>
+                                                    </h5>
+                                                    <p class="text-muted mb-2">Education Training</p>
+                                                    <ul>
+                                                        <li>Disponibilidad: Full time</li>
+                                                        <li>Horarios: Cualquiera</li>
+                                                        <li>Habilidades: Html, Css, Javascript</li>
+                                                    </ul>
+                                                    
+                                                    <ul class="list-inline mb-0 text-muted">
+                                                        <li class="list-inline-item"><i class="mdi mdi-map-marker"></i>
+                                                            Renca, Santiago de
+                                                            Chile</li>
+                                                        <li class="list-inline-item"><i class="mdi mdi-wallet"></i> $750.000
+                                                            / mes</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="mt-2 mt-lg-0 d-flex flex-wrap align-items-start gap-1">
+                                                    <span class="badge bg-soft-secondary fs-14 mt-1">Trainer</span><span
+                                                        class="badge bg-soft-secondary fs-14 mt-1">Adobe
+                                                        illustrator</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="favorite-icon">
+                                            <i class="bi bi-circle-fill text-success"><p class="fw-bold" style="display: inline;">          Disponible</p></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidate-list-box card mt-4">
+                                    <div class="p-4 card-body">
+                                        <div class="align-items-center row">
+                                            <div class="col-auto">
+                                                <div class="candidate-list-images">
+                                                    <a href="#"><img
+                                                            src="https://bootdey.com/img/Content/avatar/avatar5.png"
+                                                            alt="" class="avatar-md img-thumbnail rounded-circle" /></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="candidate-list-content mt-3 mt-lg-0">
+                                                    <h5 class="fs-19 mb-0">
+                                                        <a class="primary-link" href="#">Jeffrey Montgomery</a><span
+                                                            class="badge bg-success ms-1"><i
+                                                                class="mdi mdi-star align-middle"></i>4.9</span>
+                                                    </h5>
+                                                    <p class="text-muted mb-2">Restaurant Team Member</p>
+                                                    <ul>
+                                                        <li>Disponibilidad: Full time</li>
+                                                        <li>Horarios: Cualquiera</li>
+                                                        <li>Habilidades: Html, Css, Javascript</li>
+                                                    </ul>
+                                                    
+                                                    <ul class="list-inline mb-0 text-muted">
+                                                        <li class="list-inline-item"><i class="mdi mdi-map-marker"></i>
+                                                            Renca, Santiago de
+                                                            Chile</li>
+                                                        <li class="list-inline-item"><i class="mdi mdi-wallet"></i> $750.000
+                                                            / mes</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="mt-2 mt-lg-0 d-flex flex-wrap align-items-start gap-1">
+                                                    <span class="badge bg-soft-secondary fs-14 mt-1">Trainer</span><span
+                                                        class="badge bg-soft-secondary fs-14 mt-1">Adobe
+                                                        illustrator</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="favorite-icon">
+                                            <i class="bi bi-circle-fill text-success"><p class="fw-bold" style="display: inline;">          Disponible</p></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidate-list-box card mt-4">
+                                    <div class="p-4 card-body">
+                                        <div class="align-items-center row">
+                                            <div class="col-auto">
+                                                <div class="candidate-list-images">
+                                                    <a href="#"><img
+                                                            src="https://bootdey.com/img/Content/avatar/avatar6.png"
+                                                            alt="" class="avatar-md img-thumbnail rounded-circle" /></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="candidate-list-content mt-3 mt-lg-0">
+                                                    <h5 class="fs-19 mb-0">
+                                                        <a class="primary-link" href="#">Milton Osborn</a><span
+                                                            class="badge bg-danger ms-1"><i
+                                                                class="mdi mdi-star align-middle"></i>2.5</span>
+                                                    </h5>
+                                                    <p class="text-muted mb-2">Assistant / Store Keeper</p>
+                                                    <ul>
+                                                        <li>Disponibilidad: Full time</li>
+                                                        <li>Horarios: Cualquiera</li>
+                                                        <li>Habilidades: Html, Css, Javascript</li>
+                                                    </ul>
+                                                    
+                                                    <ul class="list-inline mb-0 text-muted">
+                                                        <li class="list-inline-item"><i class="mdi mdi-map-marker"></i>
+                                                            Renca, Santiago de
+                                                            Chile</li>
+                                                        <li class="list-inline-item"><i class="mdi mdi-wallet"></i> $750.000
+                                                            / mes</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="mt-2 mt-lg-0 d-flex flex-wrap align-items-start gap-1">
+                                                    <span class="badge bg-soft-secondary fs-14 mt-1">Trainer</span><span
+                                                        class="badge bg-soft-secondary fs-14 mt-1">Adobe
+                                                        illustrator</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="favorite-icon">
+                                            <i class="bi bi-circle-fill text-success"><p class="fw-bold" style="display: inline;">          Disponible</p></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidate-list-box card mt-4">
+                                    <div class="p-4 card-body">
+                                        <div class="align-items-center row">
+                                            <div class="col-auto">
+                                                <div class="candidate-list-images">
+                                                    <a href="#"><img
+                                                            src="https://bootdey.com/img/Content/avatar/avatar7.png"
+                                                            alt="" class="avatar-md img-thumbnail rounded-circle" /></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="candidate-list-content mt-3 mt-lg-0">
+                                                    <h5 class="fs-19 mb-0">
+                                                        <a class="primary-link" href="#">Harold Jordan</a><span
+                                                            class="badge bg-success ms-1"><i
+                                                                class="mdi mdi-star align-middle"></i>4.9</span>
+                                                    </h5>
+                                                    <p class="text-muted mb-2">Executive, HR Operations</p>
+                                                    <ul>
+                                                        <li>Disponibilidad: Full time</li>
+                                                        <li>Horarios: Cualquiera</li>
+                                                        <li>Habilidades: Html, Css, Javascript</li>
+                                                    </ul>
+                                                    
+                                                    <ul class="list-inline mb-0 text-muted">
+                                                        <li class="list-inline-item"><i class="mdi mdi-map-marker"></i>
+                                                            Renca, Santiago de
+                                                            Chile</li>
+                                                        <li class="list-inline-item"><i class="mdi mdi-wallet"></i> $750.000
+                                                            / mes</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="mt-2 mt-lg-0 d-flex flex-wrap align-items-start gap-1">
+                                                    <span class="badge bg-soft-secondary fs-14 mt-1">Trainer</span><span
+                                                        class="badge bg-soft-secondary fs-14 mt-1">Adobe
+                                                        illustrator</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="favorite-icon">
+                                            <i class="bi bi-circle-fill text-success"><p class="fw-bold" style="display: inline;">          Disponible</p></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidate-list-box card mt-4">
+                                    <div class="p-4 card-body">
+                                        <div class="align-items-center row">
+                                            <div class="col-auto">
+                                                <div class="candidate-list-images">
+                                                    <a href="#"><img
+                                                            src="https://bootdey.com/img/Content/avatar/avatar8.png"
+                                                            alt="" class="avatar-md img-thumbnail rounded-circle" /></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="candidate-list-content mt-3 mt-lg-0">
+                                                    <h5 class="fs-19 mb-0">
+                                                        <a class="primary-link" href="#">MichaeL Drake </a><span
+                                                            class="badge bg-warning ms-1"><i
+                                                                class="mdi mdi-star align-middle"></i>3.9</span>
+                                                    </h5>
+                                                    <p class="text-muted mb-2">Full Stack Engineer</p>
+                                                    <ul>
+                                                        <li>Disponibilidad: Full time</li>
+                                                        <li>Horarios: Cualquiera</li>
+                                                        <li>Habilidades: Html, Css, Javascript</li>
+                                                    </ul>
+                                                    
+                                                    <ul class="list-inline mb-0 text-muted">
+                                                        <li class="list-inline-item"><i class="mdi mdi-map-marker"></i>
+                                                            Renca, Santiago de
+                                                            Chile</li>
+                                                        <li class="list-inline-item"><i class="mdi mdi-wallet"></i> $750.000
+                                                            / mes</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="mt-2 mt-lg-0 d-flex flex-wrap align-items-start gap-1">
+                                                    <span class="badge bg-soft-secondary fs-14 mt-1">Trainer</span><span
+                                                        class="badge bg-soft-secondary fs-14 mt-1">Adobe
+                                                        illustrator</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="favorite-icon">
+                                            <i class="bi bi-circle-fill text-success"><p class="fw-bold" style="display: inline;">          Disponible</p></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FIN LISTA DE CANDIDATOSSSSSSSSSSSSSSSSSS-->
+                        </div>
+                        <div class="col-4">
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-warning rounded-3 mt-4" id="mostrarBtn">BÚSQUEDA
+                                    EMERGENTE</button>
+                            </div>
+                            <div class="container-fluid bg-light rounded-4 border shadow-sm text-start" id="miContainer">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-12"> <!--Parte Izquierda-->
+                            
+                                        <div class="row">
+                                            <div class="col-9 align-self-center"> <!--Horarios-->
+                                                Area Laboral
+                                            </div>
+                                            <div class='col-3'><!--Horarios - visible -->
+                                                <div class="col-sm-6 col-md-6 col-lg-6 text-start">
+                                                    <button type="button" class="btn btn-transparent ">
+                                                        <i class="bi bi-dash-circle-fill text-danger"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12"> <!--Horarios - Lista-->
+                                                <select class="form-select" aria-label="Default select example" id="estadoCivil">
+                                                    <option value="1">Salud</option>
+                                                    <option value="2">Comercial</option>
+                                                    <option value="3">Servicios</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="row">
+                                            <div class="col-9 align-self-center"> <!--Horarios-->
+                                                Jornada - Horario
+                                            </div>
+                                            <div class='col-3'><!--Horarios - visible -->
+                                                <div class="col-sm-6 col-md-6 col-lg-6 text-start">
+                                                    <button type="button" class="btn btn-transparent ">
+                                                        <i class="bi bi-dash-circle-fill text-danger"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12"> <!--Horarios - Lista-->
+                                                <select class="form-select" aria-label="Default select example" id="estadoCivil">
+                                                    <option value="1">Diurna</option>
+                                                    <option value="2">Nocturna</option>
+                                                    <option value="3">Cualquiera</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="row">
+                                            <div class='col-9 align-self-center'> <!-- Habilidades-->
+                                                Habilidades
+                                            </div>
+                                            <div class='col-3'><!--Habilidades - visible -->
+                                                <div class="col-sm-6 col-md-6 col-lg-6 text-start">
+                                                    <button type="button" class="btn btn-transparent ">
+                                                        <i class="bi bi-dash-circle-fill text-danger"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="row"> <!--Habilidades - Escribir-->
+                                            <div class="col-12 col-sm-12">
+                                                <input class="form-control" id="description" type="text" placeholder="Ej: Phyton, SQL, Java" />
+                                            </div>
+                                        </div>
+                            
+                                        <div class="row">
+                                            <div class='col-9 align-self-center'> <!-- Turnos-->
+                                                Jornada - Turnos
+                                            </div>
+                                            <div class='col-3'><!--Turnos - visible -->
+                                                <div class="col-sm-6 col-md-6 col-lg-6 text-start">
+                                                    <button type="button" class="btn btn-transparent ">
+                                                        <i class="bi-dash-circle-fill text-danger"></i>
+                            
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="row">
+                                            <div class="col-12"> <!-- Turnos - Lista-->
+                                                <select class="form-select" aria-label="Default select example" id="modalidadTurnos">
+                                                    <option value="1">Completa</option>
+                                                    <option value="2">Part time</option>
+                                                    <option value="3">Por turnos</option>
+                                                    <option value="4">Freelance</option>
+                                                    <option value="5">Cualquiera</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="row">
+                                            <div class='col-9 align-self-center'> <!-- Experiencia minima-->
+                                                Experiencia mínima
+                                            </div>
+                                            <div class='col-3'><!--experiencia minima - visible -->
+                                                <div class="col-sm-6 col-md-6 col-lg-6 text-start">
+                                                    <button type="button" class="btn btn-transparent ">
+                                                        <i class="bi-dash-circle-fill text-danger"></i>
+                            
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="row">
+                                            <div class="col-12"> <!-- Experiencia minima - Lista-->
+                                                <select class="form-select" aria-label="Default select example" id="experienciaMinima">
+                                                    <option value="1">Menos de 1 año</option>
+                                                    <option value="2">1 Año</option>
+                                                    <option value="3">2 - 3 años</option>
+                                                    <option value="4">3 - 5 años</option>
+                                                    <option value="5">5 - 10 años</option>
+                                                    <option value="6">Mayor de 10 años</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="row">
+                                            <div class='col-9 align-self-center'> <!-- Idiomas-->
+                                                Idiomas
+                                            </div>
+                                            <div class='col-3'><!--Idiomas - visible -->
+                                                <div class="col-sm-6 col-md-6 col-lg-6 text-start">
+                                                    <button type="button" class="btn btn-transparent ">
+                                                        <i class="bi bi-dash-circle-fill text-danger"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="row"> <!-- Idiomas - Escribir-->
+                                            <div class="col-12">
+                                                <input class="form-control" id="description" type="text" placeholder="Español, Inglés" />
+                                            </div>
+                                        </div>
+                            
+                                        <div class="col-12 text-center">
+                                            <a href="https://http.cat/status/102">(+) Agregar requisito</a>
+                                        </div>
+                            
+                                        <div class="text-center">
+                                            <button type="submit" class="btn btn-warning rounded-3 mt-4" id="mostrarBtn">Mostrar lista</button>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="col-sm-12 col-md-12 col-lg-6 mt-4 mt-lg-0"> <!--Parte Derecha-->
+                            
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-
                 <div class="row">
-                    <div class="col-8">
-                        <div class="candidate-list">
-                            <div class="candidate-list-box card mt-4">
-                                <div class="p-4 card-body">
-                                    <div class="align-items-center row">
-                                        <div class="col-auto">
-                                            <div class="candidate-list-images">
-                                                <a href="#"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" class="avatar-md img-thumbnail rounded-circle" /></a>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-5">
-                                            <div class="candidate-list-content mt-3 mt-lg-0">
-                                                <h5 class="fs-19 mb-0">
-                                                    <a class="primary-link" href="#">Carlos Silva</a><span class="badge bg-success ms-1"><i class="mdi mdi-star align-middle"></i>4.8</span>
-                                                </h5>
-                                                <p class="text-muted mb-2">Project Manager</p>
-                                                <p>Estado: Disponible</p>
-                                                <p>Disponibilidad: Full time</p>
-                                                <p>Habilidades: Html, Css, Javascript</p>
-                                                <p>Sueldo esperado: $700.000 / mes</p>
-                                                <ul class="list-inline mb-0 text-muted">
-                                                    <li class="list-inline-item"><i class="mdi mdi-map-marker"></i> Renca, Santiago de Chile</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="mt-2 mt-lg-0 d-flex flex-wrap align-items-start gap-1">
-                                                <span class="badge bg-soft-secondary fs-14 mt-1">Leader</span><span class="badge bg-soft-secondary fs-14 mt-1">Manager</span><span class="badge bg-soft-secondary fs-14 mt-1">Developer</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="favorite-icon">
-                                      <button type="button" class="btn btn-success">Aceptar</button>
-                                      <button type="button" class="btn btn-danger">Rechazar</button>
-                                    </div>
-                                </div>
+                    <div class="mt-4 pt-2 col-lg-12">
+                        <nav aria-label="Page navigation example">
+                            <div class="pagination job-pagination mb-0 justify-content-center">
+                                <li class="page-item disabled">
+                                    <a class="page-link" tabindex="-1" href="#"><i
+                                            class="mdi mdi-chevron-double-left fs-15"></i></a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#"><i class="mdi mdi-chevron-double-right fs-15"></i></a>
+                                </li>
                             </div>
-                            <div class="candidate-list-box bookmark-post card mt-4">
-                                <div class="p-4 card-body">
-                                    <div class="align-items-center row">
-                                        <div class="col-auto">
-                                            <div class="candidate-list-images">
-                                                <a href="#"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" class="avatar-md img-thumbnail rounded-circle" /></a>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-5">
-                                            <div class="candidate-list-content mt-3 mt-lg-0">
-                                                <h5 class="fs-19 mb-0">
-                                                    <a class="primary-link" href="#">Gabriel Palmer</a><span class="badge bg-warning ms-1"><i class="mdi mdi-star align-middle"></i>3.4</span>
-                                                </h5>
-                                                <p class="text-muted mb-2">Html Developer</p>
-                                                <p>Estado: Disponible</p>
-                                                <p>Disponibilidad: Full time</p>
-                                                <p>Habilidades: Html, Css, Javascript</p>
-                                                <ul class="list-inline mb-0 text-muted">
-                                                    <li class="list-inline-item"><i class="mdi mdi-map-marker"></i> Oakridge Lane California</li>
-                                                    <li class="list-inline-item"><i class="mdi mdi-wallet"></i> $250 / hours</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="mt-2 mt-lg-0 d-flex flex-wrap align-items-start gap-1"><span class="badge bg-soft-secondary fs-14 mt-1">Design</span><span class="badge bg-soft-secondary fs-14 mt-1">Developer</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="favorite-icon">
-                                      <button type="button" class="btn btn-success">Aceptar</button>
-                                      <button type="button" class="btn btn-danger">Rechazar</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="candidate-list-box card mt-4">
-                                <div class="p-4 card-body">
-                                    <div class="align-items-center row">
-                                        <div class="col-auto">
-                                            <div class="candidate-list-images">
-                                                <a href="#"><img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="" class="avatar-md img-thumbnail rounded-circle" /></a>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-5">
-                                            <div class="candidate-list-content mt-3 mt-lg-0">
-                                                <h5 class="fs-19 mb-0">
-                                                    <a class="primary-link" href="#">Rebecca Swartz </a><span class="badge bg-success ms-1"><i class="mdi mdi-star align-middle"></i>4.3</span>
-                                                </h5>
-                                                <p class="text-muted mb-2">Graphic Designer</p>
-                                                <p>Estado: Disponible</p>
-                                                <p>Habilidades: Html, Css, Javascript</p>
-                                                <p>Sueldo esperado: $700.000 / mes</p>
-                                                <ul class="list-inline mb-0 text-muted">
-                                                    <li class="list-inline-item"><i class="mdi mdi-map-marker"></i> Oakridge Lane Richardson</li>
-                                                    <li class="list-inline-item"><i class="mdi mdi-wallet"></i> $380 / hours</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="mt-2 mt-lg-0 d-flex flex-wrap align-items-start gap-1"><span class="badge bg-soft-secondary fs-14 mt-1">Design</span><span class="badge bg-soft-secondary fs-14 mt-1">Developer</span></div>
-                                        </div>
-                                    </div>
-                                   <div class="favorite-icon">
-                                      <button type="button" class="btn btn-success">Aceptar</button>
-                                      <button type="button" class="btn btn-danger">Rechazar</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="candidate-list-box bookmark-post card mt-4">
-                                <div class="p-4 card-body">
-                                    <div class="align-items-center row">
-                                        <div class="col-auto">
-                                            <div class="candidate-list-images">
-                                                <a href="#"><img src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="" class="avatar-md img-thumbnail rounded-circle" /></a>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-5">
-                                            <div class="candidate-list-content mt-3 mt-lg-0">
-                                                <h5 class="fs-19 mb-0">
-                                                    <a class="primary-link" href="#">Betty Richards</a><span class="badge bg-success ms-1"><i class="mdi mdi-star align-middle"></i>4.5</span>
-                                                </h5>
-                                                <p class="text-muted mb-2">Education Training</p>
-                                                <p>Estado: Disponible</p>
-                                                <p>Disponibilidad: Full time</p>
-                                                <p>Habilidades: Html, Css, Javascript</p>
-                                                <p>Sueldo esperado: $700.000 / mes</p>
-                                                <ul class="list-inline mb-0 text-muted">
-                                                    <li class="list-inline-item"><i class="mdi mdi-map-marker"></i> Oakridge Lane Richardson</li>
-                                                    <li class="list-inline-item"><i class="mdi mdi-wallet"></i> $650 / hours</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="mt-2 mt-lg-0 d-flex flex-wrap align-items-start gap-1">
-                                                <span class="badge bg-soft-secondary fs-14 mt-1">Trainer</span><span class="badge bg-soft-secondary fs-14 mt-1">Adobe illustrator</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="favorite-icon">
-                                      <button type="button" class="btn btn-success">Aceptar</button>
-                                      <button type="button" class="btn btn-danger">Rechazar</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="candidate-list-box card mt-4">
-                                <div class="p-4 card-body">
-                                    <div class="align-items-center row">
-                                        <div class="col-auto">
-                                            <div class="candidate-list-images">
-                                                <a href="#"><img src="https://bootdey.com/img/Content/avatar/avatar5.png" alt="" class="avatar-md img-thumbnail rounded-circle" /></a>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-5">
-                                            <div class="candidate-list-content mt-3 mt-lg-0">
-                                                <h5 class="fs-19 mb-0">
-                                                    <a class="primary-link" href="#">Jeffrey Montgomery</a><span class="badge bg-success ms-1"><i class="mdi mdi-star align-middle"></i>4.9</span>
-                                                </h5>
-                                                <p class="text-muted mb-2">Restaurant Team Member</p>
-                                                <p>Estado: Disponible</p>
-                                                <p>Disponibilidad: Full time</p>
-                                                <p>Habilidades: Html, Css, Javascript</p>
-                                                <p>Sueldo esperado: $700.000 / mes</p>
-                                                <ul class="list-inline mb-0 text-muted">
-                                                    <li class="list-inline-item"><i class="mdi mdi-map-marker"></i> Oakridge Lane Richardson</li>
-                                                    <li class="list-inline-item"><i class="mdi mdi-wallet"></i> $125 / hours</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="mt-2 mt-lg-0 d-flex flex-wrap align-items-start gap-1">
-                                                <span class="badge bg-soft-secondary fs-14 mt-1">Trainer</span><span class="badge bg-soft-secondary fs-14 mt-1">Adobe illustrator</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="favorite-icon">
-                                      <button type="button" class="btn btn-success">Aceptar</button>
-                                      <button type="button" class="btn btn-danger">Rechazar</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="candidate-list-box card mt-4">
-                                <div class="p-4 card-body">
-                                    <div class="align-items-center row">
-                                        <div class="col-auto">
-                                            <div class="candidate-list-images">
-                                                <a href="#"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="" class="avatar-md img-thumbnail rounded-circle" /></a>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-5">
-                                            <div class="candidate-list-content mt-3 mt-lg-0">
-                                                <h5 class="fs-19 mb-0">
-                                                    <a class="primary-link" href="#">Milton Osborn</a><span class="badge bg-danger ms-1"><i class="mdi mdi-star align-middle"></i>2.5</span>
-                                                </h5>
-                                                <p class="text-muted mb-2">Assistant / Store Keeper</p>
-                                                <p>Estado: Disponible</p>
-                                                <p>Disponibilidad: Full time</p>
-                                                <p>Habilidades: Html, Css, Javascript</p>
-                                                <p>Sueldo esperado: $700.000 / mes</p>
-                                                <ul class="list-inline mb-0 text-muted">
-                                                    <li class="list-inline-item"><i class="mdi mdi-map-marker"></i> Oakridge Lane Richardson</li>
-                                                    <li class="list-inline-item"><i class="mdi mdi-wallet"></i> $455 / hours</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="mt-2 mt-lg-0 d-flex flex-wrap align-items-start gap-1">
-                                                <span class="badge bg-soft-secondary fs-14 mt-1">Trainer</span><span class="badge bg-soft-secondary fs-14 mt-1">Adobe illustrator</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="favorite-icon">
-                                      <button type="button" class="btn btn-success">Aceptar</button>
-                                      <button type="button" class="btn btn-danger">Rechazar</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="candidate-list-box card mt-4">
-                                <div class="p-4 card-body">
-                                    <div class="align-items-center row">
-                                        <div class="col-auto">
-                                            <div class="candidate-list-images">
-                                                <a href="#"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" class="avatar-md img-thumbnail rounded-circle" /></a>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-5">
-                                            <div class="candidate-list-content mt-3 mt-lg-0">
-                                                <h5 class="fs-19 mb-0">
-                                                    <a class="primary-link" href="#">Harold Jordan</a><span class="badge bg-success ms-1"><i class="mdi mdi-star align-middle"></i>4.9</span>
-                                                </h5>
-                                                <p class="text-muted mb-2">Executive, HR Operations</p>
-                                                <p>Estado: Disponible</p>
-                                                <p>Disponibilidad: Full time</p>
-                                                <p>Habilidades: Html, Css, Javascript</p>
-                                                <p>Sueldo esperado: $700.000 / mes</p>
-                                                <ul class="list-inline mb-0 text-muted">
-                                                    <li class="list-inline-item"><i class="mdi mdi-map-marker"></i> Oakridge Lane Richardson</li>
-                                                    <li class="list-inline-item"><i class="mdi mdi-wallet"></i> $799 / hours</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="mt-2 mt-lg-0 d-flex flex-wrap align-items-start gap-1">
-                                                <span class="badge bg-soft-secondary fs-14 mt-1">Trainer</span><span class="badge bg-soft-secondary fs-14 mt-1">Adobe illustrator</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="favorite-icon">
-                                      <button type="button" class="btn btn-success">Aceptar</button>
-                                      <button type="button" class="btn btn-danger">Rechazar</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="candidate-list-box card mt-4">
-                                <div class="p-4 card-body">
-                                    <div class="align-items-center row">
-                                        <div class="col-auto">
-                                            <div class="candidate-list-images">
-                                                <a href="#"><img src="https://bootdey.com/img/Content/avatar/avatar8.png" alt="" class="avatar-md img-thumbnail rounded-circle" /></a>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-5">
-                                            <div class="candidate-list-content mt-3 mt-lg-0">
-                                                <h5 class="fs-19 mb-0">
-                                                    <a class="primary-link" href="#">MichaeL Drake </a><span class="badge bg-warning ms-1"><i class="mdi mdi-star align-middle"></i>3.9</span>
-                                                </h5>
-                                                <p class="text-muted mb-2">Full Stack Engineer</p>
-                                                <p>Estado: Disponible</p>
-                                                <p>Disponibilidad: Full time</p>
-                                                <p>Habilidades: Html, Css, Javascript</p>
-                                                <p>Sueldo esperado: $700.000 / mes</p>
-                                                <ul class="list-inline mb-0 text-muted">
-                                                    <li class="list-inline-item"><i class="mdi mdi-map-marker"></i> Oakridge Lane Richardson</li>
-                                                    <li class="list-inline-item"><i class="mdi mdi-wallet"></i> $240 / hours</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="mt-2 mt-lg-0 d-flex flex-wrap align-items-start gap-1">
-                                                <span class="badge bg-soft-secondary fs-14 mt-1">Trainer</span><span class="badge bg-soft-secondary fs-14 mt-1">Adobe illustrator</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="favorite-icon">
-                                      <button type="button" class="btn btn-success">Aceptar</button>
-                                      <button type="button" class="btn btn-danger">Rechazar</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-warning rounded-3 mt-4" id="mostrarBtn">BÚSQUEDA EMERGENTE</button>
-                        </div>
-                        <div class="container-fluid bg-light rounded-4 border shadow-sm text-start" id="miContainer">
-                            <form class="p-2">
-                                <div>
-                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
-                                </div>
-                                <div class="mb-3 form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                </div>
-                                <div class="text-center">
-                                    <button type="submit" class="btn btn-warning rounded-5">Ver Lista</button>
-                                </div>
-                            </form>
-                        </div>
-                        
+                        </nav>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="mt-4 pt-2 col-lg-12">
-                <nav aria-label="Page navigation example">
-                    <div class="pagination job-pagination mb-0 justify-content-center">
-                        <li class="page-item disabled">
-                            <a class="page-link" tabindex="-1" href="#"><i class="mdi mdi-chevron-double-left fs-15"></i></a>
-                        </li>
-                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item"><a class="page-link" href="#">4</a></li>
-                        <li class="page-item">
-                            <a class="page-link" href="#"><i class="mdi mdi-chevron-double-right fs-15"></i></a>
-                        </li>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
 
 
 
 
-<!-- Fin nueva sección -->
+    <!-- Fin nueva sección -->
     <footer class="bg-info text-center text-lg-start">
         <!-- Grid container-fluid -->
         <div class="container-fluid p-4">
@@ -594,19 +832,22 @@
             </div>
             <!--Grid row-->
         </div>
-      </div>
-    
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2024 Copyright:
-        <a class="text-body" href="https://renca.cl/" target="_blank">Ilustre Municipalidad de Renca</a>
-      </div>
-      <!-- Copyright -->
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright:
+            <a class="text-body" href="https://renca.cl/" target="_blank">Ilustre Municipalidad de Renca</a>
+        </div>
+        <!-- Copyright -->
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <script src="../script/script.js"></script>
     <script src="../script/script_navbar.js"></script>
     <script src="../script/aparecerBusquedaEmergente.js"></script>
 </body>
+
 </html>
