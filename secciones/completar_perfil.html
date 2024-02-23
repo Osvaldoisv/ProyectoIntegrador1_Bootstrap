@@ -58,11 +58,23 @@
                         <input class="form-control" id="name" type="text" placeholder="Nombre" />
                     </div>
                 </div>
-                <!-------------------------- Descripcion -->
                 <div class="row">
-                    <div class="col-12 col-sm-12 mb-3">
+                    <!-------------------------- Descripcion -->
+                    <div class="col-12 col-sm-12 col-lg-6 mb-3">
                         <label class="col-12 form-label" for="description">Descripción</label>
                         <input class="form-control" id="description" type="text" placeholder="Descripción" />
+                    </div>
+                    <!-------------------------- Experiencia -->
+                    <div class="col-12 col-sm-12 col-lg-6 mb-3">
+                        <label class="col-12 form-label" for="experiencia">Experiencia</label>
+                        <select class="form-select" aria-label="Default select example" id="experiencia">
+                            <option value="1">Menos de 1 año</option>
+                            <option value="2">1 Año</option>
+                            <option value="3">2 - 3 años</option>
+                            <option value="4">3 - 5 años</option>
+                            <option value="5">5 - 10 años</option>
+                            <option value="6">Mayor de 10 años</option>
+                        </select>
                     </div>
                 </div>
                 <!------------------------------ Acerca de -->
@@ -150,7 +162,7 @@
                 </div>
 
                 <!--container MODALIDAD-->
-                <div class="container p-2 mt-4 rounded-3 parent" id="fondo_modalidad">
+                <div class="container p-2 my-4 rounded-3 parent" id="fondo_modalidad">
                     <div class="row mb-2">
                         <!--Parte Izquierda-->
                         <div class="col-sm-12 col-md-12 col-lg-6">
@@ -224,6 +236,32 @@
                         <!--Parte Derecha-->
                         <div class="col-sm-12 col-md-12 col-lg-6 mt-4 mt-lg-0">
 
+                        </div>
+                    </div>
+                </div>
+
+                <!------------------------------------------ Renta minima esperada-->
+                <div class="row">
+                    <!------------------------------------------ Renta minima esperada-->
+                    <div class="col-6">
+                        <label class="col-12  form-label" for="Nombre">Renta mínima esperada ($ CLP)</label>
+                    </div>
+                    <!------------------------------------------ Renta minima esperada - visible-->
+                    <div class="col-6">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value=""
+                                id="visible_civil" />
+                            <label class="form-check-label" for="visible_civil">
+                                Visible
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!------------------------------------------ Renta minima esperada - numero-->
+                    <div class="col-12 align-items-center">
+                        <div class="col-12 col-sm-12 mb-3">
+                            <input class="form-control" id="name" type="number" placeholder="50000" />
                         </div>
                     </div>
                 </div>
