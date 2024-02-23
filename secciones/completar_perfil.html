@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +11,12 @@
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-  
+
     <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet">
-  
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,17 +24,18 @@
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  
+
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
     <link rel="stylesheet" href="../styles/style_completar_perfil.css" type="text/css">
 </head>
+
 <body>
     <div class='container-fluid'>
         <div class="container-fluid m-2">
             <form class="container position-relative">
-                <!-- BOTON CERRAR -->
+                <!--------------------------------- BOTON CERRAR -->
                 <div class='row text-end'>
                     <div class='col-11'>
                     </div>
@@ -42,27 +44,28 @@
                     </div>
                 </div>
 
+                <!-------------------------------- TITULO -->
                 <div class="row">
                     <div class="col-12">
                         <h1>Información Personal - Preguntas Usuario</h1>
                     </div>
                 </div>
 
-                <!-- formulario de contacto-nombre -->
+                <!---------------------- Nombre -->
                 <div class="row">
                     <div class="col-12 col-sm-12 mb-3">
                         <label class="col-12 form-label" html="name">Nombre</label>
                         <input class="form-control" id="name" type="text" placeholder="Nombre" />
                     </div>
                 </div>
-                <!-- formulario de contacto-nombre -->
+                <!-------------------------- Descripcion -->
                 <div class="row">
                     <div class="col-12 col-sm-12 mb-3">
                         <label class="col-12 form-label" for="description">Descripción</label>
                         <input class="form-control" id="description" type="text" placeholder="Descripción" />
                     </div>
                 </div>
-                <!-- formulario de contacto-mensaje -->
+                <!------------------------------ Acerca de -->
                 <div class="row">
                     <div class="col-12 mb-3">
                         <label class="form-label" for="about">Acerca de:</label>
@@ -71,7 +74,7 @@
                     </div>
                 </div>
 
-                <!-- formulario de contacto-mensaje -->
+                <!--------------------------------------- Idiomas -->
                 <div class="row">
                     <div class="col-12 col-sm-12 mb-3">
                         <label class="col-12 form-label" for="description">Idiomas y nivel</label>
@@ -81,13 +84,16 @@
                 </div>
 
                 <!--Edad y estado civil-->
-                <div class="row"> 
-                    <div class="col-sm-12 col-md-12 col-lg-6"> <!--Parte Izquierda-->
+                <div class="row">
+                    <!--Parte Izquierda-->
+                    <div class="col-sm-12 col-md-12 col-lg-6">
                         <div class="row">
-                            <div class="col-6"> <!-- fecha de nacimiento -->
+                            <!----------------------------------------- nacimiento -->
+                            <div class="col-6">
                                 <label for="nacimiento">Fecha de nacimiento:</label>
                             </div>
-                            <div class="col-6"> <!-- visible - nacimiento -->
+                            <!------------------------------------- visible - nacimiento -->
+                            <div class="col-6">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="visible_nacimiento" />
                                     <label class="form-check-label" for="visible_nacimiento">
@@ -97,25 +103,30 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-6"> <!-- calendario-->
+                            <!-------------------------------------- calendario-->
+                            <div class="col-6">
                                 <label class="form-label mt-1" for="edad">
                                     <div class="c-azul">
                                         <input type="date" id="nacimiento" name="nacimiento" class="sm-form-control" />
                                     </div>
                                 </label>
                             </div>
-                            <div class="col-6"> <!-- edad total -->
+                            <!-- ----------------------------------edad total -->
+                            <div class="col-6">
                                 <input class="form-control" id="edad" type="number" placeholder="Edad" />
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-12 col-lg-6 mt-4 mt-lg-0"> <!--Parte Derecha-->
-                        <div class="row"> 
-                            <div class='col-6'> <!-- estado civil-->                    
+                    <!--Parte Derecha-->
+                    <div class="col-sm-12 col-md-12 col-lg-6 mt-4 mt-lg-0">
+                        <div class="row">
+                            <!---------------------------------------- estado civil-->
+                            <div class='col-6'>
                                 Estado Civil
                             </div>
-                            <div class='col-6'><!-- visible - estado civil -->
+                            <!---------------------------------------- visible - estado civil -->
+                            <div class='col-6'>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="visible_civil" />
                                     <label class="form-check-label" for="visible_civil">
@@ -125,7 +136,8 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12"> <!-- LISTA estado civil--> 
+                            <!--------------------------------------------- LISTA estado civil-->
+                            <div class="col-12">
                                 <select class="form-select" aria-label="Default select example" id="estadoCivil">
                                     <option value="1">Soltero/a</option>
                                     <option value="2">Casado/a</option>
@@ -137,27 +149,34 @@
                     </div>
                 </div>
 
-                <div class="container" id="fondo_modalidad">
-                    <div class="row mt-4">
-                        <div class="col-sm-12 col-md-12 col-lg-6"> <!--Parte Izquierda-->
+                <!--container MODALIDAD-->
+                <div class="container p-2 mt-4 rounded-3 parent" id="fondo_modalidad">
+                    <div class="row mb-2">
+                        <!--Parte Izquierda-->
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="row">
-                                        <div class="col-6"> <!--Jornada - Horarios-->
+                                        <!-----------------------------------------Horarios-->
+                                        <div class="col-6">
                                             Jornada - Horario
                                         </div>
+                                        <!-----------------------------------Visible - Horarios-->
                                         <div class="col-6">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="visible_civil" />
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="visible_civil" />
                                                 <label class="form-check-label" for="visible_civil">
-                                                    Visible <!--Visible - Horarios-->
+                                                    Visible
                                                 </label>
                                             </div>
                                         </div>
                                     </div>
+                                    <!-----------------------------------------Horarios - Lista-->
                                     <div class="row">
-                                        <div class="col-12"> <!--Jornada - Horarios - Lista-->
-                                            <select class="form-select" aria-label="Default select example" id="estadoCivil">
+                                        <div class="col-12">
+                                            <select class="form-select" aria-label="Default select example"
+                                                id="estadoCivil">
                                                 <option value="1">No especifica</option>
                                                 <option value="2">Diurna</option>
                                                 <option value="3">Nocturna</option>
@@ -165,24 +184,28 @@
                                             </select>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="row">
-                                        <div class='col-6'> <!-- Modalidad turnos-->
+                                        <!--------------------------------------- Modalidad turnos-->
+                                        <div class='col-6'>
                                             Jornada - Turnos
                                         </div>
-                                        <div class='col-6'><!--Modalidad turnos - visible -->
+                                        <!-----------------------------------Modalidad turnos - visible -->
+                                        <div class='col-6'>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="visible_civil" />
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="visible_civil" />
                                                 <label class="form-check-label" for="visible_civil">
                                                     Visible
                                                 </label>
                                             </div>
                                         </div>
                                     </div>
-                                    
+                                    <!------------------------------------------ Modalidad turnos - Lista-->
                                     <div class="row">
-                                        <div class="col-12"> <!-- Modalidad turnos - Lista-->
-                                            <select class="form-select" aria-label="Default select example" id="estadoCivil">
+                                        <div class="col-12">
+                                            <select class="form-select" aria-label="Default select example"
+                                                id="estadoCivil">
                                                 <option value="1">No especifica</option>
                                                 <option value="2">Completa</option>
                                                 <option value="3">Part time</option>
@@ -192,41 +215,31 @@
                                             </select>
                                         </div>
                                     </div>
-                                    
-                                    </div>
-                                    <div class="col-6">
-                                    
-                                    </div>
-                    
+                                </div>
+                                <div class="col-6">
+                                </div>
                             </div>
-                    
                         </div>
-                    
-                        <div class="col-sm-12 col-md-12 col-lg-6 mt-4 mt-lg-0"> <!--Parte Derecha-->
-                    
+
+                        <!--Parte Derecha-->
+                        <div class="col-sm-12 col-md-12 col-lg-6 mt-4 mt-lg-0">
+
                         </div>
                     </div>
                 </div>
-                
-
-
-
-
-
-
-                <!-- formulario de contacto-boton -->
+                <!-- BOTON guardar cambios -->
                 <div class='row mt-2'>
                     <div class='col-10'>
                     </div>
                     <div class='col-2'>
                         <button type="button" class="btn btn-success">Guardar cambios</button>
                     </div>
-
                 </div>
             </form>
-            <img src="" class="img-fluid mx-auto d-block mb-2" alt="" />
+            <!-- <img src="" class="img-fluid mx-auto d-block mb-2" alt="" /> -->
         </div>
 
+        <!-- BOTON volver -->
         <div class="container-fluid-fluid h-100 mt-4">
             <div class="row w-100 align-items-center">
                 <div class="col text-center">
@@ -252,4 +265,5 @@
     <script src="assets/js/main.js"></script>
     <script src="../script/script_navbar.js"></script>
 </body>
+
 </html>
